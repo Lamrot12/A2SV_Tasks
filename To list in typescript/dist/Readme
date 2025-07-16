@@ -1,0 +1,13 @@
+#  To-Do List App 
+
+This is a simple and colorful browser-based To-Do List application made using TypeScript, HTML, and CSS. Users can add, edit, and delete tasks. The interface is clean, beginner-friendly, and styled with a cheerful yellow theme. 
+# Features
+
+-  Add tasks to your list  
+- Edit existing tasks using a prompt  
+- Delete tasks from the list  
+- Built using TypeScript and compiled to JavaScript  
+- Code uses TypeScript interface and types
+IMAGE OF THE TO DO :[![alt text](image.png)]
+
+
