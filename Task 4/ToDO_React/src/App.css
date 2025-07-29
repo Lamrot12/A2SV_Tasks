@@ -1,0 +1,77 @@
+/* App.css */
+
+body {
+  background: #fff4f9;
+  font-family: 'Poppins', sans-serif;
+  padding: 40px;
+  color: #333;
+}
+
+.app {
+  max-width: 500px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #ff4fa2;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 12px 16px;
+  width: 70%;
+  border: 2px solid #ffb5d2;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s;
+  margin-right: 8px;
+}
+
+input[type="text"]:focus {
+  border-color: #ff4fa2;
+}
+
+button {
+  padding: 10px 14px;
+  background: #ff4fa2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e64592;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #ffe3ed;
+  margin: 12px 0;
+  padding: 14px 18px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li input[type="text"] {
+  width: 60%;
+  margin-right: 10px;
+}
+
+li button {
+  margin-left: 5px;
+}
