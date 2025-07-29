@@ -5,7 +5,7 @@ A beautiful, responsive contact form built using `React`, `TypeScript`, and `rea
 
 # Preview
 
-![Contact Form Preview](/Form/src/assets/image.png)
+![Contact Form Preview]([/Form/src/assets/image.png](https://github.com/Lamrot12/A2SV_Tasks/blob/main/Task%205/Form/src/assets/image.png))
 
 # Features
 
