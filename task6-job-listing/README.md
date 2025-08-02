@@ -6,7 +6,7 @@ A React + TailwindCSS app displaying job listings on a dashboard and detailed jo
 ## Screenshots
 
 ### Dashboard
-![Dashboard screenshot](/src/assets/Image1.png)  
+![Dashboard screenshot](https://github.com/Lamrot12/A2SV_Tasks/blob/main/task6-job-listing/src/assets/Image1.png)  
 _Display multiple job cards._
 
 ## Description Page
