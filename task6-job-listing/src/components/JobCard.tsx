@@ -29,11 +29,11 @@ const JobCardList: React.FC = () => {
   if (!jobs.length) return <p>Loading jobs...</p>;
 
   return (
-    <div className="container mx-auto p-4 grid gap-6 md:grid-cols-2">
+    <div className="container mx-auto p-4 grid gap-6 ">
       {jobs.map(job => (
-        <Link to={`/description/${job.id}`} key={job.id}>
+        <Link to={`/description/${job.id}`} key={job.id} className="block">
           <div
-            className="bg-white border border-gray-200 rounded-2xl p-6 shadow hover:shadow-xl transition"
+            className="bg-white border border-gray-200 rounded-3xl p-6 shadow hover:shadow-xl transition-shadow duration-300 ease-in-out"
           >
             <div className="flex items-center">
               <img
@@ -42,22 +42,23 @@ const JobCardList: React.FC = () => {
                 className="w-20 h-20 rounded-full object-cover mr-4"
               />
               <div>
-                <h2 className="text-xl font-semibold">{job.title}</h2>
-                <p className="text-gray-600">
-                  {job.company} <span className="text-sm">— {job.about.location}</span>
+                <h2 className="text-xl font-semibold text-gray-900">{job.title}</h2>
+                <p className="text-gray-500">
+                  {job.company} <span className="text-xs">— {job.about.location}</span>
                 </p>
               </div>
             </div>
             <p className="mt-3 text-gray-700">{job.description}</p>
-            <div className="mt-4 space-x-2">
-              {job.categories.map((cat, idx) => (
-                <span
-                  key={idx}
-                  className="inline-block border border-green-400 text-green-400 px-3 py-1 rounded-full text-xs"
-                >
-                  {cat}
-                </span>
-              ))}
+            <div className="mt-5 flex space-x-2">
+              <span className="border border-green-300 text-green-300 px-3 py-1 rounded-full text-xs">
+                In Person
+              </span>
+              <span className="border border-yellow-300 text-yellow-300 px-3 py-1 rounded-full text-xs">
+                Education
+              </span>
+              <span className="border border-blue-700 text-blue-700 px-3 py-1 rounded-full text-xs">
+                IT
+              </span>
             </div>
           </div>
         </Link>
