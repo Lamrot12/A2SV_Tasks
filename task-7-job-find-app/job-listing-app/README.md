@@ -19,7 +19,7 @@ A web application built with React + TypeScript that displays job opportunities 
 
 # Opportunities List Page
 
-![https://github.com/Lamrot12/A2SV_Tasks/blob/task-7-job-find-app/task-7-job-find-app/job-listing-app/src/assets/imagelanding.png]()  
+[https://github.com/Lamrot12/A2SV_Tasks/blob/task-7-job-find-app/task-7-job-find-app/job-listing-app/src/assets/imagelanding.png]
 Displays a list of job opportunities fetched from the API.
 
 # Job Description Page
