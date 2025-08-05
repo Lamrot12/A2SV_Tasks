@@ -1,0 +1,40 @@
+export interface JobOpportunity {
+  id: string;
+  title: string;
+  description: string;
+  idealCandidate: string;
+  requirements: string;
+  responsibilities: string;
+  applicantsCount: number;
+  average_rating: number;
+  categories: string[];
+  createdAt: string;
+  createdBy: string;
+  datePosted: string;
+  deadline: string;
+  endDate: string;
+  engagementType: string;
+  isBookmarked: boolean;
+  isPaid: boolean;
+  isRolling: boolean;
+  location: string[];
+  logoUrl: string;
+  opType: string;
+  orgEmail: string;
+  orgID: string;
+  orgName: string;
+  orgPrimaryPhone: string;
+  paymentOption: {
+    currency: string;
+    paymentType: string;
+  };
+  perksAndBenefits: string | null;
+  questions: string | null;
+  requiredSkills: string[];
+  startDate: string;
+  status: string;
+  total_reviews: number;
+  updatedAt: string;
+  viewsCount: number;
+  whenAndWhere: string;
+}
