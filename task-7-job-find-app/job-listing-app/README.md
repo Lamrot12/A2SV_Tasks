@@ -24,6 +24,6 @@ Displays a list of job opportunities fetched from the API.
 
 # Job Description Page
 
-![Job Description](https://github.com/Lamrot12/A2SV_Tasks/tree/task-8-job-find-app)  
+![Job Description](https://github.com/Lamrot12/A2SV_Tasks/blob/task-7-job-find-app/task-7-job-find-app/job-listing-app/src/assets/imagedescription.png)
 Shows detailed information about the selected opportunity, including description, responsibilities, requirements, and more.
 
