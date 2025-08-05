@@ -19,11 +19,11 @@ A web application built with React + TypeScript that displays job opportunities 
 
 # Opportunities List Page
 
-![Opportunities List](./screenshots/opportunities-list.png)  
+![Opportunities List]()  
 Displays a list of job opportunities fetched from the API.
 
 # Job Description Page
 
-![Job Description](./screenshots/job-description.png)  
+![Job Description](https://github.com/Lamrot12/A2SV_Tasks/tree/task-8-job-find-app)  
 Shows detailed information about the selected opportunity, including description, responsibilities, requirements, and more.
 
